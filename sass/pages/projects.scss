@@ -1,0 +1,50 @@
+@use "../helpers/mixins" as *;
+.aaaa  {
+    @include breakpoint(840px) {
+           justify-content: center;
+        }
+                 @include breakpoint(670px) {
+                     justify-content: flex-end;
+                 }
+                 @include breakpoint(670px) {
+                     justify-content: center;
+                 }
+span:last-child  {
+    @include breakpoint(1031px){
+        margin-top: 10px;
+    }
+       
+        @include breakpoint(670px) {
+            margin-top: 0;
+        }
+                 @include breakpoint(485px) {
+                     margin-top: 10px;
+                 }
+}
+span:nth-child(3) {
+    @include breakpoint(840px) {
+        margin-top: 10px;
+    }
+         @include breakpoint(781px) {
+             margin-top: 0;
+         }
+                 @include breakpoint(701px) {
+                     margin-top: 10px;
+                 }
+    @include breakpoint(670px) {
+        margin-top: 0;
+    }
+        @include breakpoint(361px) {
+            margin-top: 10px;
+        }
+}
+}
+.box > span{
+    @media (max-width:815px)  and (min-width:781px){
+        font-size: 14px;
+        
+    }
+}
+.box .members > img:hover{
+    z-index: 1;
+}

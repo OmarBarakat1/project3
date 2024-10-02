@@ -1,0 +1,76 @@
+/* global rules */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --main-transition:.3s;
+}
+
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input:focus,textarea:focus{
+    outline: none;
+}
+*{
+    box-sizing: border-box;
+}
+/* end global rules */
+/* ---o--- */
+ .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 15px auto ;
+    position: relative;
+    background-color: black;
+}
+
+ .circle::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+
+}
+
+ .circle::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+/* ---o--- */
+/* li adjustment  */
+ul li a{
+    display: flex;
+    align-items: center;
+    transition: var(--main-transition);
+}
+.aaaa li:hover ,.aaaa li.active{
+    background-color: rgb(235,235, 235);
+}
+.aaaa li{
+    border-radius: 5px;
+}
+ul li p {
+    padding-left: 15px;
+    text-transform: capitalize;
+}
+.page .content .headContent .serch-box input[type="search"]:hover{
+    width: 200px;
+}

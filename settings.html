@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./sass/frame.css">
+    <link rel="stylesheet" href="./css/abbr.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./sass/main.css">
+    <link rel="stylesheet" href="./sass/pages/settings.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Settings</title>
+</head>
+
+
+<body>
+    <div class="page df">
+        <aside class="p20 bgw bx wp200    " style="min-height: 100vh;">
+            <h2 class="tc m0">Barakat</h2>
+            <div class="circle"></div>
+            <ul class="tc aaaa">
+
+                <li >
+                    <a href="index.html">
+                        <i class="fa-solid fa-chart-bar fa-fw "></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <p>settings</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <p>profile</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <p>projects</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <p>courses</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <p>friends</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <p>files</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-money-check fa-fw"></i>
+                        <p>plans</p>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="content " style="width: calc(100% - 200px);">
+            <div class="headContent  bgw  hp70 w100  df sb af">
+                <div class="serch-box p10 pr l10 ra10  " style="border: 1px solid rgb(220, 220, 220);">
+                    <i class="fa-solid fa-magnifying-glass "></i>
+                    <input type="search" class=" nb wp150 tr " placeholder="Type A Keyword">
+                </div> <!-- search-box-->
+                <div class="notifications df af ">
+                    <i class="fa-regular fa-bell fs20 mr10 pr"></i>
+                    <img src="img/member-sox.png" class="mr10" width="30px" alt="">
+                </div> <!-- notifications-->
+            </div> <!-- headContent-->
+            <h1 class="wf pr l10">Settings
+                <span class="pb b-10 l0 w70 hp4 bgw"></span>
+                <span class="pb b-10 l0 w20 hp4 bgk"></span>
+            </h1>
+            <div class="wraper df g20 p20 fw ">
+                <div class="box one bgw pr ra10  hp400 " style="width: calc(50% - 10px);">
+                    <div class=" text p10">
+                        <h2 class="m0">Site Control</h2>
+                        <p class="m0 mt10 c130">Control The Website If There Is Maintenance</p>
+                    </div> <!-- text -->
+                    <div class="flex df sb af pl10 pr10">
+                    <div class=" text ">
+                        <p class="m0">Website Control</p>
+                        <p class="m0 mt10 c130">Open/Close Website And Type The Reason</p>
+                    </div> <!-- text -->
+                        <input type="checkbox" class="po wp60 hp25 bg220 ra20 pr ffff" >
+                    </div> <!-- flex -->
+                        <textarea name="massage" placeholder="Close Message Content" rows="10"
+                            class="rn p10 m10 bs bw1 bc200 ra5 wc20"></textarea>
+                </div> <!-- box-one -->
+                <div class="box two bgw pr ra10  hp400 " style="width: calc(50% - 10px);">
+                <div class=" text p10">     
+                    <h2 class="m0">General Info</h2>
+                    <p class="m0 mt10 c130">General Information About Your Account</p>
+                </div> <!-- text -->
+                <form action="" class="df fc p10 hp300">
+                    <label class="df fc f1 "> <span class="db mb10">First Name</span>
+                        <input type="text" placeholder="First Name" class="f1 ra5 p5 bs bw1 bc200">
+                    </label>
+                    <label class="df fc f1 mt10"><span class="db mb10">Last Name</span>
+                        <input type="text " placeholder="Last Name" class="f1 ra5 p5 bs bw1 bc200">
+                    </label>
+                    <label class="df fc f1 mt10"> <span class="db mb10">Email</span>
+                        <div class="flex df f1 eeee">
+                        <input type="email" placeholder="o@nn.sa" class=" ra5 p5 bs bw1 bc200 bg240 wc60">
+                        <a class="cb  df af jf pl5 wp60" href="">Change</a>
+                        </div> <!-- flex -->
+                    </label>
+
+                </form>
+                </div> <!--box-two-->
+                <div class="box three bgw wcf10 ra10 hp400 df fc">
+                        <div class=" text p10">
+                            <h2 class="m0">Security Info</h2>
+                            <p class="m0 mt10 c130">Security Information About Your Account</p>
+                        </div> <!-- text -->
+                        <div class="flex-one df sb af pl10 pr10 f1">
+                            <div class=" text ">
+                                <p class="m0">Password</p>
+                                <p class="m0 mt10 c130">Last Change On 25/10/2021</p>
+                            </div> <!-- text -->
+                            <a href="" class="p5 ra5 cw bgb">Change</a>
+                        </div> <!-- flex-one -->
+                        <div class="flex-two df sb af pl10 pr10 f1 bs bw1 bc235 nbrl ">
+                        <div class=" text ">
+                            <p class="m0">Two-Factor Authentication</p>
+                            <p class="m0 mt10 c130">Enable/Disable The Feature</p>
+                        </div> <!-- text -->
+                             <input type="checkbox" class="po wp60 hp25 bg220 ra20 pr">
+                        </div> <!-- flex-two -->
+                        <div class="flex-three df sb af pl10 pr10 f1">
+                            <div class=" text ">
+                                <p class="m0">Devices</p>
+                                <p class="m0 mt10 c130">Check The Login Devices List</p>
+                            </div> <!-- text -->
+                         <a href="" class="p5 ra5 bg235">Devices</a>
+                        </div> <!-- flex-three -->
+                </div><!-- box three -->
+                <div class="box four p10 wcf10 bgw ra10 hp400 p10 ">
+                        <div class=" text p10 hp80">
+                            <h2 class="m0">Social Info</h2>
+                            <p class="m0 mt10 c130">Social Media Information</p>
+                        </div> <!-- text -->
+                        <div class="socail media p10 w100 df fc sb hc80">
+                            <div class="twitter df fw af bs bw1 bc220 ra5 bg220 ">
+                                <input type="text" class="wc30 nbtb nbr bw1 bs bc240 h100 p10 bg220" placeholder="Twitter UserName">
+                                <i class="fa-brands fa-twitter wp30 p10 df af jf c190"></i>
+                            </div>
+                            <div class="facebook df fw af bs bw1 bc220 ra5 bg220">
+                                <input type="text" class="wc30 nbtb nbr bw1 bs bc240 h100 p10 bg220" placeholder="Facebook UserName">
+                                <i class="fa-brands fa-facebook wp30 p10 df af jf c190"></i>
+                            </div>
+                            <div class="linkedin df fw af bs bw1 bc220 ra5 bg220" >
+                                <input type="text" class="wc30 nbtb nbr bw1 bs bc240 h100 p10 bg220" placeholder="Linkedin UserName">
+                                <i class="fa-brands fa-linkedin wp30 p10 df af jf c190"></i>
+                            </div>
+                            <div class="youtube df fw af bs bw1 bc220 ra5 bg220">
+                            <input type="text" class="wc30 nbtb nbr bw1 bs bc240 h100 p10 bg220" placeholder="Youtube UserName">
+                            <i class="fa-brands fa-youtube wp30 p10 df af jf c190"></i>
+                            </div>
+                        </div> <!-- socail media-->
+                </div> <!-- box four -->
+                <div class="box five bgw wcf10 ra10 hp400 p10">
+                <div class=" text p10 hp80">
+                    <h2 class="m0">Widgets Control</h2>
+                    <p class="m0 mt10 c130">Show/Hide Widgets</p>
+                </div> <!-- text -->    
+                <div class="labels df fc hc80 df fc  p10 ">
+                    <div class="label f1 wf df  ">              
+                        <input type="checkbox" name="" id="quick-draft" checked class="po mr10">
+                    <label for="quick-draft" class="po"> Quick Draft</label>
+                    </div><!-- label-->
+                <div class="label f1 wf df  ">
+                
+                    <input type="checkbox" name="" id="Yearly Targets" checked class="po mr10">
+                    <label for="Yearly Targets" class="po"> Yearly Targets</label>
+                </div><!-- label-->
+                <div class="label f1 wf df  ">
+                
+                    <input type="checkbox" name="" id="Tickets Statistics" checked class="po mr10">
+                    <label for="Tickets Statistics" class="po"> Tickets Statistics
+</label>
+                </div><!-- label-->
+                <div class="label f1 wf df  ">
+                
+                    <input type="checkbox" name="" id="Latest News" checked class="po mr10">
+                    <label for="Latest News" class="po"> Latest News</label>
+                </div><!-- label-->
+                <div class="label f1 wf df  ">
+                
+                    <input type="checkbox" name="" id="Latest Tasks" checked class="po mr10">
+                    <label for="Latest Tasks" class="po"> Latest Tasks</label>
+                </div><!-- label-->
+                        <div class="label f1 wf df  ">
+                            <input type="checkbox" name="" id="Top Search Items" checked class="po mr10">
+                                <label for="Top Search Items" class="po"> Top Search Items</label>
+                            </div><!-- label-->
+                </div> <!-- labels-->
+                </div> <!-- box five-->
+                <div class="box six bgw wcf10 ra10 hp400 p10">
+                    <div class=" text p10 hp80 ">
+                        <h2 class="m0">Backup Manager</h2>
+                        <p class="m0 mt10 c130">Control Backup Time And Location</p>
+                    </div> <!-- text -->
+                   <div class="radio df fc fw  p10 pt0 " style="height: calc(60% - 40px);" >
+                    <label class="df af">
+                    <input type="radio" name="Date" id="Day" checked class="mr10">
+                    Daily
+                    </label>
+                    <label class="df af">
+                    <input type="radio" name="Date" id="Week" class="mr10"> 
+                    Weekly
+                    </label> 
+                    <label class="df af" >
+                    <input type="radio" name="Date" id="Month" class="mr10">
+                    Monthly
+                    </label>
+                   </div> <!-- radio -->
+                   <div class="three boxes df fw sb tc w100  bs bw1 nbrl nbb bc220 p10" style="height: calc(40% - 40px);">
+                    <div class="one  wct10 pr">
+                        <input type="radio" name="server" class="na pb l0 t0 w100 h100 bs bw1 bc220 bs ra10 po">
+                        <i class="fa-solid fa-server"></i>
+                        <p class="mb0">Megaman</p>
+                    </div>
+                        <div class="two wct10 pr">
+                        <input type="radio" name="server" class="na pb l0 t0 w100 h100 bs bw1 bc220 bs ra10 po" checked>
+                            <i class="fa-solid fa-server"></i>
+                            <p class="mb0">Barakat</p>
+                        </div>
+                            <div class="two wct10 pr" >
+                        <input type="radio" name="server" class="na pb l0 t0 w100 h100 bs bw1 bc220 bs ra10 po">
+                                <i class="fa-solid fa-server"></i>
+                                <p class="mb0">Sigma</p>
+                            </div>
+                   </div> <!-- three boxes-->
+                </div> <!-- box six-->
+            </div> <!-- wraper-->
+        </div> <!-- content -->
+    </div> <!-- page -->
+</body>
+<style>
+    @media (max-width:780px) {
+        .page .content {
+            width: calc(100% - 60px) !important;
+        }
+    }
+
+    @media (max-width:400px) {
+
+        .page .content .wraper,
+        .dddd {
+            padding: 5px;
+        }
+    }
+
+    @media (max-width:900px) {
+        .page .content .wraper .box .bottom .rectangle>div h2 {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width:670px) {
+        .page .content .wraper .box {
+            width: 100% !important;
+        }
+
+        .page .content .wraper {
+            flex-direction: column;
+        }
+    }
+
+    div.notifications.df.af i.fa-regular.fa-bell.fs20.mr10.pr:after {
+        content: "";
+        position: absolute;
+        background-color: red;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        top: -10px;
+        right: -7px;
+    }
+</style>
+
+</html>

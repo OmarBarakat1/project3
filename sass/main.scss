@@ -1,0 +1,146 @@
+@use "./helpers/mixins" as * ;
+body{
+    background-color: #eee;
+    font-family: "Open Sans", sans-serif;
+}
+aside{
+    @include breakpoint(780px) {
+            width: 60px !important;
+            padding: 5px !important;
+        }
+}
+aside h2 {
+    @include breakpoint(780px) {
+        font-size: 16px;
+        margin:7px 0 0 0;
+    }
+}
+aside .circle{
+    @include breakpoint(780px) {
+        display: none;
+    }
+}
+aside ul li  {
+    @include breakpoint(780px) {
+        display: list-item;
+        padding: 10px;
+    }
+}
+aside ul li p {
+    @include breakpoint(780px){
+        display: none;
+    }
+}
+.box.five .rows > div div.wf{
+    @include breakpoint(1200px) {
+            display: none;
+        }
+}
+.box.five .rows>div> img {
+    @include breakpoint(991px) {
+            display: none;
+        }
+                @include breakpoint(670px) {
+                    display: block;
+                }
+                           @include breakpoint(475px) {
+                               display: none;
+                           }
+}
+ .box.five .rows>div .text {
+    @include breakpoint(991px) {
+     text-align:center;
+     margin: auto;
+ }
+ }
+aside ul li i{
+    @include breakpoint(780px) {
+        margin: auto;
+        padding-bottom: 10px;
+    }
+}
+::-webkit-scrollbar{
+    width:15px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: blue;
+}
+.box.six>.boxes>div i:hover{
+    color: red;
+}
+.box.six>.boxes>div i {
+    cursor: pointer;
+}
+.bbbb{
+    animation: change .8s alternate infinite;
+}
+.cccc .table{
+    overflow-x: auto;
+}
+.cccc table{
+    border-spacing: 0;
+    min-width: 1000px;
+}
+.cccc table tr td {
+    padding: 10px;
+    border: 1px solid rgb(220, 220, 220);
+}
+.cccc table thead tr td {
+    font-weight: bold;
+}
+.cccc table tr td.image img:not(:first-of-type){
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    border: 2px solid white;
+}
+.cccc table tr td.image img:nth-of-type(2) {
+    right: 20px;
+   
+}
+.cccc table tr td.image img:nth-of-type(3) {
+    right: 35px;
+}
+.cccc table tr td.image img:nth-of-type(4) {
+    right: 50px;
+}
+.box.twelve .boxes>div>i{
+    transition: .3s;
+}
+.box.twelve .boxes>div>i:hover {
+    transform: rotate(5deg);
+}
+.box.nine > h2 , .box.ten>h2 {
+    @include breakpoint(850px){
+        font-size: 22px;
+    }
+        @include breakpoint(670px) {
+            font-size: 25px;
+        }
+                 @include breakpoint(380px) {
+                     font-size: 22px;
+                 }
+}
+.box.nine .boxes>div>p{
+    @include breakpoint(850px) {
+            font-size: 12px;
+        }
+                 @include breakpoint(670px) {
+                     font-size: 15px;
+                 }
+                @include breakpoint(380px) {
+                   font-size: 12px;
+                }
+}
+@keyframes change {
+    from{
+        background-color: blue;
+    }
+        to {
+            background-color: white;
+        }
+        
+}

@@ -1,0 +1,183 @@
+body {
+  background-color: #eee;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 780px) {
+  aside {
+    width: 60px !important;
+    padding: 5px !important;
+  }
+}
+
+@media (max-width: 780px) {
+  aside h2 {
+    font-size: 16px;
+    margin: 7px 0 0 0;
+  }
+}
+
+@media (max-width: 780px) {
+  aside .circle {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  aside ul li {
+    display: list-item;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  aside ul li p {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .box.five .rows > div div.wf {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .box.five .rows > div > img {
+    display: none;
+  }
+}
+@media (max-width: 670px) {
+  .box.five .rows > div > img {
+    display: block;
+  }
+}
+@media (max-width: 475px) {
+  .box.five .rows > div > img {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .box.five .rows > div .text {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 780px) {
+  aside ul li i {
+    margin: auto;
+    padding-bottom: 10px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: blue;
+}
+
+.box.six > .boxes > div i:hover {
+  color: red;
+}
+
+.box.six > .boxes > div i {
+  cursor: pointer;
+}
+
+.bbbb {
+  animation: change 0.8s alternate infinite;
+}
+
+.cccc .table {
+  overflow-x: auto;
+}
+
+.cccc table {
+  border-spacing: 0;
+  min-width: 1000px;
+}
+
+.cccc table tr td {
+  padding: 10px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.cccc table thead tr td {
+  font-weight: bold;
+}
+
+.cccc table tr td.image img:not(:first-of-type) {
+  border-radius: 50%;
+  position: relative;
+  right: 10px;
+  border: 2px solid white;
+}
+
+.cccc table tr td.image img:nth-of-type(2) {
+  right: 20px;
+}
+
+.cccc table tr td.image img:nth-of-type(3) {
+  right: 35px;
+}
+
+.cccc table tr td.image img:nth-of-type(4) {
+  right: 50px;
+}
+
+.box.twelve .boxes > div > i {
+  transition: 0.3s;
+}
+
+.box.twelve .boxes > div > i:hover {
+  transform: rotate(5deg);
+}
+
+@media (max-width: 850px) {
+  .box.nine > h2, .box.ten > h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 670px) {
+  .box.nine > h2, .box.ten > h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 380px) {
+  .box.nine > h2, .box.ten > h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 850px) {
+  .box.nine .boxes > div > p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 670px) {
+  .box.nine .boxes > div > p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 380px) {
+  .box.nine .boxes > div > p {
+    font-size: 12px;
+  }
+}
+
+@keyframes change {
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: white;
+  }
+}/*# sourceMappingURL=main.css.map */

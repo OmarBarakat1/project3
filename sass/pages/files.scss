@@ -1,0 +1,38 @@
+article .container .games {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+article .container{
+    @media (max-width:630px) {
+        flex-direction: column;
+    }
+    .aside{
+        @media (max-width:630px) {
+                flex-direction: column;
+        order: -1;
+        width: 100%;
+        }
+        .five:hover i{
+            animation: iterate .8s infinite ;
+        }
+    }
+   .games{
+        @media (max-width:630px) {
+            width: 100%;
+            margin-top: 15px;
+        }
+       >div .square i{
+        transition: .3s;
+       }
+        > div .square i:hover{
+            transform: rotate(5deg);
+        }
+   }
+}
+@keyframes iterate {
+    100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+}

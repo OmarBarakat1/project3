@@ -1,0 +1,71 @@
+@media (max-width: 840px) {
+  .aaaa {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 670px) {
+  .aaaa {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+@media (max-width: 670px) {
+  .aaaa {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 1031px) {
+  .aaaa span:last-child {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 670px) {
+  .aaaa span:last-child {
+    margin-top: 0;
+  }
+}
+@media (max-width: 485px) {
+  .aaaa span:last-child {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 840px) {
+  .aaaa span:nth-child(3) {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 781px) {
+  .aaaa span:nth-child(3) {
+    margin-top: 0;
+  }
+}
+@media (max-width: 701px) {
+  .aaaa span:nth-child(3) {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 670px) {
+  .aaaa span:nth-child(3) {
+    margin-top: 0;
+  }
+}
+@media (max-width: 361px) {
+  .aaaa span:nth-child(3) {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 815px) and (min-width: 781px) {
+  .box > span {
+    font-size: 14px;
+  }
+}
+
+.box .members > img:hover {
+  z-index: 1;
+}
